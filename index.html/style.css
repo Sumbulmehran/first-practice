@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: violet;
+
+}
+.navbar{
+    width: 100%;
+    background-color:dodgerblue;
+    margin-top: -20px;
+    box-shadow: wheat;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.container{
+    background-image: url(home\,jpg.jpg);
+
+    width: 100%;
+    height: 600px;
+    margin-top: -20px;
+}
